@@ -1,0 +1,5 @@
+- Implementar tratamento de exceções para senhas incorretas e usernames não encontrados.
+- Adicionar "break" em cada caso do switch no menu de ações.
+- Refatorar o código para torná-lo mais legível e modular.
+- Implementar validação de estoque ao realizar uma compra.
+- Atualizar o saldo da empresa após cada venda para refletir as comissões.
