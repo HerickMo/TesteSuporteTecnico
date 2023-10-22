@@ -1,5 +1,11 @@
+Erros Encontrados:
 - Faltam algumas validações de entrada do usuário, como tratamento de exceções para senhas incorretas ou usernames não encontrados.
 - No menu de escolha de ações, os casos do switch não possuem "break", o que pode levar a uma execução indevida de múltiplos casos.
-- A estrutura do código é um pouco confusa, e pode ser otimizada para torná-la mais legível e de fácil manutenção.
+- A estrutura do código é um pouco confusa e pode ser otimizada para torná-la mais legível e de fácil manutenção.
 - Não há tratamento para estoque insuficiente quando um cliente tenta comprar um produto.
-- O cálculo das comissões não está sendo aplicado ao saldo da empresa.
+- Erro: O saldo da empresa não está sendo atualizado para refletir as comissões.
+- Causa: O código não atualiza o saldo da empresa após uma venda.
+- Erro: Falta de tratamento para senhas incorretas ou usernames não encontrados.
+- Causa: O código não verifica se as credenciais do usuário estão corretas antes de permitir o acesso.
+- Erro: Possibilidade de execução indevida de múltiplos casos no switch do menu de ações.
+- Causa: A falta de "break" em cada caso pode levar a execuções não intencionais.
