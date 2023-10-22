@@ -1,0 +1,5 @@
+- Adicione tratamento de exceções para senhas incorretas ou usernames não encontrados.
+- Adicione "break" em cada caso no switch do menu de ações para evitar a execução indevida de múltiplos casos.
+- Refatore o código para torná-lo mais legível e modular, separando as funcionalidades em métodos menores.
+- Implemente uma validação de estoque quando um cliente tentar comprar um produto, garantindo que o estoque seja suficiente.
+- Atualize o saldo da empresa após cada venda para refletir as comissões.
