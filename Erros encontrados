@@ -1,0 +1,5 @@
+- Faltam algumas validações de entrada do usuário, como tratamento de exceções para senhas incorretas ou usernames não encontrados.
+- No menu de escolha de ações, os casos do switch não possuem "break", o que pode levar a uma execução indevida de múltiplos casos.
+- A estrutura do código é um pouco confusa, e pode ser otimizada para torná-la mais legível e de fácil manutenção.
+- Não há tratamento para estoque insuficiente quando um cliente tenta comprar um produto.
+- O cálculo das comissões não está sendo aplicado ao saldo da empresa.
